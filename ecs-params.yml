@@ -1,0 +1,10 @@
+version: 1
+task_definition:
+  services:
+    reverse-proxy:
+      cpu_shares: 100
+      mem_limit: 162144000
+
+    app:
+      cpu_shares: 100
+      mem_limit: 262144000
